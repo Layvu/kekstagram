@@ -13,5 +13,3 @@ const extractNumbers = (str) => {
     .replaceAll(' ', '');
   return result === '' ? NaN : Number(result);
 };
-
-export { isLengthCorrect, isPalindrome, extractNumbers };
